@@ -401,11 +401,59 @@
             </li>
           </ul>
         </div>
+        <div class="contact-form">
+          <label>Zapisz się do newslettera</label><br>
+          <input type="text" name="e-mail" placeholder="E-mail" class="email-input">
+          <button type="button" class="button order">Zapisz się <svg class="social-icon-form">
+                <use
+                  href="/goit-markup-hw-06/images/icons.svg#icon-icon-send">
+                </use>
+              </svg></button>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="close-btn" data-modal-close>X</button>
+        <button type="button" class="close-btn" data-modal-close>&#10006</button>
+         <h2>Zostaw swoje dane w formularzu poniżej</h2>
+         <form class="form">
+          <label class="label">
+            <p class="label-text">Imię</p>
+            <input type="text" name="name" class="input-area">
+            <svg class="form-icon">
+                <use
+                  href="/goit-markup-hw-06/images/icons.svg#icon-Person">
+                </use>
+              </svg>
+          </label>
+          <label class="label">
+            <p class="label-text">Telefon</p>
+            <input type="phone" name="phone" class="input-area">
+            <svg class="form-icon">
+                <use
+                  href="/goit-markup-hw-06/images/icons.svg#icon-Phone">
+                </use>
+              </svg>
+          </label>
+          <label class="label">
+            <p class="label-text">E-mail</p>
+            <input type="email" name="email" class="input-area">
+            <svg class="form-icon">
+                <use
+                  href="/goit-markup-hw-06/images/icons.svg#icon-Mail">
+                </use>
+              </svg>
+          </label>
+          <label>
+            <p class="label-text">Komentarz</p>
+            <textarea name="feedback" rows="6" placeholder="Wprowadź tekst" class="textarea"></textarea>
+          </label>
+          <label>
+            <input type="checkbox" name="policy"></label>
+            <div class="policy-check">Oświadczam iż akceptuję <span class="blue-undertext">Regulamin</span> i <span class="blue-undertext">Politykę Prywatności.</span>
+            </div>
+          <button type="submit" class="submit-button">Wyślij</button>
+         </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
