@@ -421,7 +421,7 @@ body {
   border: 1px solid var(--brand-blue);
   cursor: pointer;
 }
-.social{
+.social {
   margin-right: 78px;
 }
 .social-list {
@@ -431,17 +431,21 @@ body {
   padding-bottom: 30px;
   justify-content: center;
 }
-.contact-form{
+.contact-form {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-top: 14px;
-  color:#ffffff
+  color: #ffffff;
 }
-
-.email-input{
+.contact-form > .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.email-input {
   padding: 15px;
   margin-top: 20px;
   margin-right: 12px;
@@ -449,14 +453,14 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background: #2F303A;
+  background: #2f303a;
   color: rgba(255, 255, 255, 0.6);
 }
-.social-icon-form{
-    width: 24px;
-    height: 24px;
-    fill: #ffffff;
-    margin-left: 24px;
+.social-icon-form {
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
+  margin-left: 24px;
 }
 
 .backdrop {
@@ -484,15 +488,15 @@ body {
   margin: auto;
   top: 221px;
 }
-.modal>h2{
-font-weight: 700;
-font-size: 20px;
-line-height: 23px;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
-padding: 40px 40px 0 40px;
-margin-bottom: 12px;
+.modal > h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding: 40px 40px 0 40px;
+  margin-bottom: 12px;
 }
 
 .close-btn {
@@ -506,40 +510,40 @@ margin-bottom: 12px;
   border-radius: 50%;
   cursor: pointer;
 }
-.form{
-padding-left: 40px;
-padding-right: 40px;
-font-weight: 400;
-font-size: 12px;
-line-height: 14px;
-letter-spacing: 0.01em;
-color: #757575;
+.form {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
 }
-.input-area{
-border: 1px solid rgba(33, 33, 33, 0.2);
-border-radius: 4px;
-width: 448px;
-height: 40px;
-margin-top: 4px;
-margin-bottom: 10px;
-padding-left: 42px;
+.input-area {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  width: 448px;
+  height: 40px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  padding-left: 42px;
 }
-.textarea{
-border: 1px solid rgba(33, 33, 33, 0.2);
-border-radius: 4px;
-width: 448px;
-margin-top: 4px;
-margin-bottom: 20px;
-padding: 12px 16px;
+.textarea {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  width: 448px;
+  margin-top: 4px;
+  margin-bottom: 20px;
+  padding: 12px 16px;
 }
-.label-text{
+.label-text {
   margin: 0;
 }
-.label{
+.label {
   position: relative;
 }
 
-.form-icon{
+.form-icon {
   width: 12px;
   height: 12px;
   position: absolute;
@@ -547,30 +551,30 @@ padding: 12px 16px;
   top: 42px;
 }
 .label:hover,
-.label:active{
-fill: var(--brand-blue);
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.label:active {
+  fill: var(--brand-blue);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.label:hover .input-area{
+.label:hover .input-area {
   border-color: var(--brand-blue);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.label:active .input-area{
+.label:active .input-area {
   border-color: var(--brand-blue);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.policy-check{
-  display: inline; 
+.policy-check {
+  display: inline;
   margin-left: 7px;
 }
-.blue-undertext{
+.blue-undertext {
   color: var(--brand-blue);
   text-decoration: underline;
-} 
-.submit-button{
+}
+.submit-button {
   display: block;
   width: 200px;
   height: 50px;
