@@ -578,6 +578,9 @@ body {
 .form-icon:focus {
   fill: var(--brand-blue);
   border-color: var(--brand-blue);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .input-area:focus + .form-icon {
   fill: var(--brand-blue);
