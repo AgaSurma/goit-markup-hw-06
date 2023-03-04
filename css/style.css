@@ -554,6 +554,7 @@ body {
 }
 .form-label {
   position: relative;
+  display: block;
 }
 
 .form-icon {
@@ -561,7 +562,7 @@ body {
   height: 12px;
   position: absolute;
   left: 15px;
-  top: 42px;
+  top: 32px;
 }
 .form-label:hover,
 .form-label:active {
