@@ -484,39 +484,45 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  position: relative;
+  position: absolute;
   margin: auto;
   top: 221px;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
 .modal > h2 {
   font-weight: 700;
+  margin-top: 2px;
+  margin-bottom: 12px;
   font-size: 20px;
   line-height: 23px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding: 40px 40px 0 40px;
-  margin-bottom: 12px;
+  padding: 2px 40px 0 40px;
 }
 
 .close-btn {
-  position: absolute;
-  top: 8px;
-  right: 8px;
   width: 30px;
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
   background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  margin-top: 8px;
+  margin-left: auto;
+
 }
 .close-icon{
   width: 11px;
   height: 11px;
   fill: black;
-  position: absolute;
-  top: 8px;
-  right: 8px;
+  
 }
 .form {
   padding-left: 40px;
@@ -656,7 +662,7 @@ width: 11px;
 height: 8px;
 fill: white;
 position: relative;
-left: -6px;
+left: -7px;
 }
 .checkbox-container input:checked ~ svg{
   opacity: 1;
